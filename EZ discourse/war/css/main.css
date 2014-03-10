@@ -1,0 +1,78 @@
+@media only screen and (device-width: 480px) and
+	(-webkit-min-device-pixel-ratio: 2) { /* CSS3 Rules for iPhone */
+}
+
+html,body {
+	font-family: Verdana, Helvetica, sans-serif;
+	height: 100%;
+	background-color: #e3e3e3;
+}
+
+#container {
+	width: 100%;
+	display: table;
+	*display: block; /* IE7 */
+}
+
+#container>span {
+	display: table-cell;
+	*display: inline-block; /* IE7 */
+	vertical-align: middle;
+	text-align: center;
+}
+
+#container>span>img {
+	width: 100%;
+	max-width: 200px;
+}
+
+.image-frame {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	width: 400px;
+	overflow: auto;
+	border: 1px solid #ccc;
+}
+
+.center-view,#layer2 {
+	display: block;
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin-top: 55px;
+	margin-bottom: 55px;
+	margin-right: 5px;
+	margin-left: 5px;
+/* 	background-color: #f5f5f5; */
+}
+
+#layer1 {
+	display: block;
+	position: absolute;
+	height: auto;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin-top: 55px;
+	margin-bottom: 55px;
+	margin-right: 5px;
+	margin-left: 5px;
+	background-color: #f5f5f5;
+}
+
+#main_canvas {
+	background-color: #f5f5f5;
+	margin-top: 55px;
+	margin-bottom: 55px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.navbar {
+	margin-bottom: 0px !important;
+}
